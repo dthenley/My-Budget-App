@@ -1,7 +1,7 @@
 import { Form, usePage } from '@inertiajs/react';
+import { useState } from 'react';
 import { dashboard, login, register } from '@/routes';
 import DebtInput from './debtInput';
-import { useState } from 'react';
 
 export default function App() {
   const [debtList, setDebtList] = useState([{ id: 1 }, { id: 2 }, { id: 3 }, { id: 4 }, { id: 5 }]);
